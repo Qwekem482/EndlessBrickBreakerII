@@ -1,4 +1,4 @@
-[English Here]
+[English Here](https://github.com/Qwekem482/EndlessBrickBreakerII/blob/main/README_en.md)
 
 # Endless Brick Breaker II
  Một phiên bản mới của game Endless Brick Breaker được tạo ra trước đó do việc đưa các file .meta vào danh sách gitignore dẫn tới hỏng dự án.
