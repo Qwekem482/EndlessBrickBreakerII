@@ -10,6 +10,8 @@ public class Ball : MonoBehaviour
     [SerializeField] private AudioSource blockBounce;
     [SerializeField] private AudioSource basketBounce;
 
+    private SpriteRenderer spriteRenderer;
+
     void Start()
     {
         Push();
