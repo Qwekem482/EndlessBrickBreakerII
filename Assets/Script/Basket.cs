@@ -13,9 +13,20 @@ public class Basket : MonoBehaviour
 
     void Update() 
     {
-        //float movement = Input.GetAxisRaw("Horizontal");
-        //GetComponent<Rigidbody2D>().velocity = Vector2.right * movement * speed;
+        
+        WindowsMove();
+        AndroidMove();
 
+    }
+
+    private void WindowsMove()
+    {
+        float movement = Input.GetAxisRaw("Horizontal");
+        GetComponent<Rigidbody2D>().velocity = Vector2.right * movement * speed;
+    }
+
+    private void AndroidMove()
+    {
         if(Input.touchCount > 0)
         {
             if(Input.touches[0].phase == TouchPhase.Began)
@@ -47,6 +58,5 @@ public class Basket : MonoBehaviour
                 touchStart = Input.touches[0].position;
             }
         }
-
     }
 }
