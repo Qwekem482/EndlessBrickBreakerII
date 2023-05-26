@@ -1,3 +1,5 @@
+[Tiếng Việt](https://github.com/Qwekem482/EndlessBrickBreakerII/blob/main/README.md)
+
 # Endless Brick breaker II
 
 A new, remake version of old Endless Brick Breaker game, which was created by me and broken because I add .meta file to gitignore. 
